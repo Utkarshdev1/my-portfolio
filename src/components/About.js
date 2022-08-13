@@ -1,5 +1,5 @@
 import React from "react";
-import Mypic from "../Images/mypic.jpeg";
+import Mypic from "../Images/pic2.svg";
 export default function About() {
   return (
     <section id="about">
