@@ -11,9 +11,9 @@ export default function About() {
             Mobile & Web.
           </h1>
           <p className="mb-8 leading-relaxed">
-            I'm a software engineer specializing having 3+ Years of Experiance
-            in building Mobile and Web Apps. Currently, I'm focused on building
-            accessible, human-centered products at XEBIA.
+            I'm a software engineer having 3+ years of experience in building
+            Mobile and Web Apps. Currently, I'm focused on building accessible,
+            human-centered products at XEBIA.
           </p>
           <div className="flex justify-center">
             <a
