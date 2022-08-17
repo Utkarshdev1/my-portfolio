@@ -7,13 +7,13 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm Utkarsh.
-            <br className="hidden lg:inline-block" />I build things for the Web
-            & Mobile.
+            <br className="hidden lg:inline-block" />I build things for the
+            Mobile & Web.
           </h1>
           <p className="mb-8 leading-relaxed">
-            I'm a software engineer specializing in building Mobile and Web Apps
-            over 3 years. Currently, I'm focused on building accessible,
-            human-centered products at XEBIA.
+            I'm a software engineer specializing having 3+ Years of Experiance
+            in building Mobile and Web Apps. Currently, I'm focused on building
+            accessible, human-centered products at XEBIA.
           </p>
           <div className="flex justify-center">
             <a
