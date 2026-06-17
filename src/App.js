@@ -1,4 +1,4 @@
-import { lazy, Suspense } from "react";
+import { lazy, Suspense, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 
@@ -9,6 +9,10 @@ const SeedFusion = lazy(() => import("./components/Seedfusion"));
 const Contact = lazy(() => import("./components/Contact"));
 
 function App() {
+  useEffect(() => {
+    document.getElementById("app-loader")?.remove();
+  }, []);
+
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
       <Navbar />
