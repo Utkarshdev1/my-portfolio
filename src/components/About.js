@@ -61,7 +61,7 @@ export default function Hero() {
               alt="Utkarsh Kumar"
               className="relative w-[350px] md:w-[420px] h-[500px] object-cover rounded-[32px] border border-white/10"
             />
-            <div className="absolute -bottom-6 -left-6 bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-5">
+            <div className="absolute bottom-4 left-4 bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-5">
               <p className="text-sm text-gray-400 mb-1">Currently Building</p>
               <h3 className="font-semibold text-lg">SeedFusion Agrigrow LLP</h3>
             </div>
