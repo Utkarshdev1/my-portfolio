@@ -1,4 +1,4 @@
-import MyPic from "../Images/mypic.jpeg";
+import MyPic from "../Images/mypic.webp";
 import { useReveal } from "../hooks/useReveal";
 
 export default function Hero() {

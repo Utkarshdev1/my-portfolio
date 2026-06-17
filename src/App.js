@@ -1,21 +1,25 @@
+import { lazy, Suspense } from "react";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Skills from "./components/Skills";
-import Experience from "./components/Experience";
-import SeedFusion from "./components/Seedfusion";
+
+const Projects = lazy(() => import("./components/Projects"));
+const Experience = lazy(() => import("./components/Experience"));
+const Skills = lazy(() => import("./components/Skills"));
+const SeedFusion = lazy(() => import("./components/Seedfusion"));
+const Contact = lazy(() => import("./components/Contact"));
 
 function App() {
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
       <Navbar />
       <About />
-      <Projects />
-      <Experience />
-      <Skills />
-      <SeedFusion />
-      <Contact />
+      <Suspense fallback={null}>
+        <Projects />
+        <Experience />
+        <Skills />
+        <SeedFusion />
+        <Contact />
+      </Suspense>
     </main>
   );
 }
