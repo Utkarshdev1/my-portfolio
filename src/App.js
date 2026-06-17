@@ -1,10 +1,10 @@
-import React from "react";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Skills from "./components/Skills";
-import Testimonials from "./components/Testimonials";
+import Experience from "./components/Experience";
+import SeedFusion from "./components/Seedfusion";
 
 function App() {
   return (
@@ -12,8 +12,9 @@ function App() {
       <Navbar />
       <About />
       <Projects />
+      <Experience />
       <Skills />
-      <Testimonials />
+      <SeedFusion />
       <Contact />
     </main>
   );
